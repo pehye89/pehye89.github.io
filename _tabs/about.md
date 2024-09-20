@@ -35,6 +35,6 @@ Euron (2023.09~2024.03)
 #### Projects
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
-> See [**Projects**](https://pehye89.github.io/categories/records/) category for list of projects!
+> See [**Projects**](https://pehye89.github.io/categories/projects/) category for list of projects!
 {: .prompt-info }
 <!-- markdownlint-restore -->
