@@ -1,9 +1,10 @@
 ---
-title: 모델학습에 대해 - loss fluctuation
+title: Text and Typography
 author: eunhye
-date: 2024-09-20 11:33:00 +0800
-categories: [Memo]
-tags: [Model Training]
+date: 2020-08-08 11:33:00 +0800
+categories: [Blogging, Demo]
+tags: [typography, testing]
+math: true
 ---
 
 ### 🤔Loss가 계속 fluctuate 한다
