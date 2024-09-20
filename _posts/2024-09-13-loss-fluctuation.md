@@ -1,9 +1,9 @@
 ---
 title: 모델 학습에 대해
 date: 2024-09-13
-author: eunhye
 categories: [Records, on Model Training]
 tags: [loss, model_training, paddlepaddle, sdg]
+description: 모델 학습을 시도하면서 마주한 문제들을 해결하면서 배운 것들
 ---
 
 
