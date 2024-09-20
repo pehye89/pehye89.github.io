@@ -35,6 +35,6 @@ Euron (2023.09~2024.03)
 #### Projects
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
-> See [**Projects**](https://www.mathjax.org/) tag for list of projects!
+> See [**Projects**](https://www.mathjax.org/) category for list of projects!
 {: .prompt-info }
 <!-- markdownlint-restore -->
