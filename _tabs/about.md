@@ -8,7 +8,7 @@ order: 4
 
 ---
 
-### **Tool Stack**
+### Tool Stack
 
 🛠️ `python` `r` `antconc`
 🎨 `photoshop` `illustrator` `premiere pro`
