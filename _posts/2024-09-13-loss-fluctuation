@@ -1,10 +1,9 @@
 ---
-title: Text and Typography
+title: 모델 학습에 대해 - loss fluctuation
 author: eunhye
-date: 2020-08-08 11:33:00 +0800
-categories: [Blogging, Demo]
-tags: [typography, testing]
-math: true
+date: 2024-09-13 11:33:00 +0800
+categories: [Records, on Model Training]
+tags: [loss, model_training, paddlepaddle, sdg]
 ---
 
 ### 🤔Loss가 계속 fluctuate 한다
