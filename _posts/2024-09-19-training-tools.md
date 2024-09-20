@@ -1,9 +1,9 @@
 ---
 title: 잡다한 모델 학습 tools
-author: eunhye
 date: 2024-09-19
 categories: [Records, on Model Training]
 tags: [wandb, nohub, tqdm]
+description: 모델 학습에 직접적인 영향을 미치지는 않기만 모델을 더 효율적으로 학습하기 위해 사용한 툴
 ---
 
 ### 1. nohub
