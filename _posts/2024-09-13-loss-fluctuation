@@ -1,10 +1,11 @@
 ---
 title: 모델 학습에 대해
-author: eunhye
 date: 2024-09-13
+author: eunhye
 categories: [Records, on Model Training]
 tags: [loss, model_training, paddlepaddle, sdg]
 ---
+
 
 ### 🤔Loss가 계속 fluctuate 한다
 #### 모델을 학습할 때 확인해야할 요소들
