@@ -1,5 +1,5 @@
 ---
-title: CogVideo : Large-scale Pretraining for Text-to-Video Generation via Transformers
+title: [CogVideo] Large-scale Pretraining for Text-to-Video Generation via Transformers
 date: 2024-07-19
 categories: [Papers, Video Generation]
 tags: [video_generation]
