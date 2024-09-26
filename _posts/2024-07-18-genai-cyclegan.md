@@ -6,8 +6,8 @@ tags: [image_generation, gan]
 math: true
 ---
 
-Published : 
-Paper : []()
+Published : 2017/03
+Paper : [Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://arxiv.org/abs/1703.10593)
 
 ---
 
