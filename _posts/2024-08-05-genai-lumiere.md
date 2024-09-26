@@ -6,8 +6,8 @@ tags: [video_generation, diffusion, ldm]
 math: true
 ---
 
-Published : 
-Paper : []()
+Published : 2024/01
+Paper : [A Space-Time Diffusion Model for Video Generation](https://arxiv.org/abs/2401.12945)
 
 ---
 
