@@ -232,7 +232,9 @@ details.details-inline > summary::-webkit-details-marker {
   display: none; /* IOS 隐藏默认的箭头 */
 }
 details.details-inline > summary::before {
-  content: ">"; /* Unicode for fa-angle-down */
+  font-family: 'Font Awesome 6 Free';
+  content: "\f105"; 
+  //content: ">";
   //scale: 1.3;
   display: inline-block;
   margin-right: .4rem;

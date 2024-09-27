@@ -16,12 +16,12 @@ module Jekyll
     def render(context)
       content = super
       # Generate HTML for the title if it exists, otherwise leave it empty
-      title_html = @title ? "<summary>#{@title}</summary>" : "<summary>Details</summary>"
+      title_html = @title ? "<summary><br>#{@title}</summary>" : "<summary><br>Details</summary>"
       
       # Render the appropriate details tag with the title and content
       case @box_type
       when "inline"
-        "<details class=\"details-inline\">#{title_html}#<br>{content}</details>"
+        "<details class=\"details-inline\">#{title_html}#{content}</details>"
       when "block"
         "<details class=\"details-block\">#{title_html}#{content}</details>"
       else
