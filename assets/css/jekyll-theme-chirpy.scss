@@ -219,7 +219,7 @@ details.details-inline > summary {
   color: var(--link-color);
   display: inline-block;
   line-height: normal;
-  // border-bottom: 1px solid var(--link-underline-color);
+  border-bottom: 1px solid var(--link-underline-color);
 }
 details.details-inline > summary:hover {
   color: #d2603a; /* 鼠标悬停时的颜色 */
@@ -232,11 +232,10 @@ details.details-inline > summary::-webkit-details-marker {
   display: none; /* IOS 隐藏默认的箭头 */
 }
 details.details-inline > summary::before {
-  font-family: 'Font Awesome 6 Free';
-  content: "\f105"; /* Unicode for fa-angle-down */
+  content: ">"; /* Unicode for fa-angle-down */
   //scale: 1.3;
   display: inline-block;
-  margin-right: .5rem;
+  margin-right: .4rem;
   //transition: transform 0.2s ease; 
 }
 details.details-inline[open] > summary::before {
