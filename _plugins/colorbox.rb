@@ -16,7 +16,7 @@ module Jekyll
     def render(context)
       content = super
       # Generate HTML for the title if it exists, otherwise leave it empty
-      title_html = @title ? "<summary><br>#{@title}</summary>" : "<summary><br>Details</summary>"
+      title_html = @title ? "<summary>#{@title}</summary>" : ""
       
       # Render the appropriate details tag with the title and content
       case @box_type
