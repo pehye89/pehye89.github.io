@@ -21,9 +21,7 @@ module Jekyll
       # Render the appropriate details tag with the title and content
       case @box_type
       when "inline"
-        "<details class=\"details-inline\">#{title_html}#",
-        "{content}",
-        "</details>"
+        "<details class=\"details-inline\">#{title_html}#<br>{content}</details>"
       when "block"
         "<details class=\"details-block\">#{title_html}#{content}</details>"
       else
