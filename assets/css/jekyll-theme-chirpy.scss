@@ -165,17 +165,18 @@ details.details-block > summary::marker {
 details.details-block > summary::before {
   /* 关闭状态下 */
   /* 也可以用其他符号或自定义图标，比如 Unicode 字符 */
-  content: '🙈'; 
+  // content: '🙈'; 
   // content:'\002B9A'; 
   // content: '😼';
+  content: "\f105"; /* Unicode for fa-angle-down */
   margin-right: .5rem;
   display: inline-block;
 }
 details.details-block[open] > summary::before {
-  content: '🐵'; 
+  transform: rotate(90deg);
   // content: '\002B9B'; 
   // content: '🙀';
-  animation: my-cat .2s ease-in-out; 
+  //animation: my-cat .2s ease-in-out; 
   margin-right: .5rem;
 }
 
@@ -187,15 +188,16 @@ details.details-block > summary::after {
   position: absolute;
   right: 1rem; /* 调整箭头在最右边的位置 */
 }
-
+/*
 details.details-block[open] > summary::after {
   transform: rotate(90deg);
 }
 
 details.details-block[open] > summary{
-  // transition: margin 200ms ease-out; /* 展开会有动画效果 */
+  // transition: margin 200ms ease-out; 
   margin-bottom: .6rem;
 }
+*/
 
 @keyframes my-cat {
   50%  { transform: scale(1.2); } /* 动画效果代码 */
