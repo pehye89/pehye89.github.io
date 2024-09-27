@@ -51,14 +51,5 @@ module Jekyll
   end
 end
 
-module Jekyll
-end
-
 Liquid::Template.register_tag('detail', Jekyll::DetailsBlock)
 Liquid::Template.register_tag('box', Jekyll::ColorBoxes)
-
-
-module Jekyll
-end
-
-Liquid::Template.register_tag('detail', Jekyll::DetailsBlock)
