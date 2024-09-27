@@ -1,7 +1,7 @@
 ---
 title: 🎈 About Diffusion Models
 date: 2024-09-26
-categories: [Papers, General]
+categories: [Studies, CV]
 tags: [diffusion]
 description: Diffusion 모델에 대한 전체적인 정리 및 공부
 ---

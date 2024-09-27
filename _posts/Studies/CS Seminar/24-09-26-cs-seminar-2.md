@@ -1,7 +1,7 @@
 ---
 title: CS Seminar 02
 date: 2024-09-26
-categories: [CS, C]
+categories: [Studies, CS Seminar]
 tags: [CS, function, stack overflow, stack, heap]
 description: 함수 (함수를 만드는 이유, call stack, stack overflow)
 ---
