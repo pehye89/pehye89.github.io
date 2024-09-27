@@ -2,19 +2,33 @@ module Jekyll
   class DetailsBlock < Liquid::Block
     def initialize(tag_name, markup, tokens)
       super
-      # Check if the markup contains a title (enclosed in quotes)
-      @title = markup.strip.gsub(/^"(.*)"$/, '\1')
+      # Check if the markup contains a space, indicating both tag type and title
+      if markup.strip.include?(" ")
+        @box_type, @title = markup.strip.split(" ", 2)
+        @title = @title&.gsub(/^"(.*)"$/, '\1')
+      else
+        # If no space, treat the markup as only tag type and set title to nil
+        @box_type = markup.strip
+        @title = nil
+      end
     end
 
     def render(context)
       content = super
-      # Use the title if provided, otherwise default to "Details"
-      title_html = @title.empty? ? "<summary>Details</summary>" : "<summary>#{@title}</summary>"
+      # Generate HTML for the title if it exists, otherwise leave it empty
+      title_html = @title ? "<summary>#{@title}</summary>" : "<summary>Details</summary>"
       
-      # Render the <details> element with the title and content
-      "<details class=\"details-block\" markdown=\"1\">#{title_html}#{content}</details>"
+      # Render the appropriate details tag with the title and content
+      case @box_type
+      when "inline"
+        "<details class=\"details-inline\">#{title_html}#{content}</details>"
+      when "block"
+        "<details class=\"details-block\">#{title_html}#{content}</details>"
+      else
+      end
     end
   end
+
 
   class ColorBoxes < Liquid::Block
     def initialize(tag_name, markup, tokens)
@@ -53,3 +67,4 @@ end
 
 Liquid::Template.register_tag('detail', Jekyll::DetailsBlock)
 Liquid::Template.register_tag('box', Jekyll::ColorBoxes)
+
