@@ -165,18 +165,17 @@ details.details-block > summary::marker {
 details.details-block > summary::before {
   /* 关闭状态下 */
   /* 也可以用其他符号或自定义图标，比如 Unicode 字符 */
-  // content: '🙈'; 
-  content:'\002B9A'; 
-  /* content: '😼';*/
+  content: '🙈'; 
+  // content:'\002B9A'; 
+  // content: '😼';
   margin-right: .5rem;
   display: inline-block;
 }
 details.details-block[open] > summary::before {
-  /* 展开状态下 */
-  /* content: '🐵';*/  
-  content: '\002B9B'; 
-  /*content: '🙀';*/
-  animation: my-cat .2s ease-in-out; /*  点击会有动画效果 */
+  content: '🐵'; 
+  // content: '\002B9B'; 
+  // content: '🙀';
+  animation: my-cat .2s ease-in-out; 
   margin-right: .5rem;
 }
 
