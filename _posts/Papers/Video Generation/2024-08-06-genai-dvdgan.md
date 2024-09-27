@@ -1,8 +1,8 @@
 ---
-title: \[DVD-GAN] Adversarial Video Generation on Complex Datasets
+title: (DVD-GAN) Adversarial Video Generation on Complex Datasets
 date: 2024-08-06
 categories: [Papers, Video Generation]
-tags: [video_generation, gan]
+tags: [gan]
 math: true
 ---
 

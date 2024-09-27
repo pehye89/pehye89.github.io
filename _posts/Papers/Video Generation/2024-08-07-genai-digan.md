@@ -1,8 +1,8 @@
 ---
-title: \[DIGAN] Generating Videos with Dynamics-aware Implicit Generative Adversarial Networks
+title: (DIGAN) Generating Videos with Dynamics-aware Implicit Generative Adversarial Networks
 date: 2024-08-07
 categories: [Papers, Video Generation]
-tags: [video_generation, gan]
+tags: [gan]
 math: true
 ---
 

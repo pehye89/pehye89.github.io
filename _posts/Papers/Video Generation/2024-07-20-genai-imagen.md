@@ -1,9 +1,9 @@
 ---
-title: High Definition Video Generation with Diffusion Models
+title: (IMAGEN) High Definition Video Generation with Diffusion Models
 date: 2024-07-20 
 author: eunhye
 categories: [Papers, Video Generation]
-tags: [video_generation, diffusion, imagen]
+tags: [diffusion]
 math: true
 ---
 

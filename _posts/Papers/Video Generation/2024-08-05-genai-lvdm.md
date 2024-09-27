@@ -1,8 +1,8 @@
 ---
-title: \[LVDM] Latent Video Diffusion Models for High-Fidelity Long Video Generation
+title: (LVDM) Latent Video Diffusion Models for High-Fidelity Long Video Generation
 date: 2024-08-05
 categories: [Papers, Video Generation]
-tags: [video_generation, diffusion, ldm]
+tags: [diffusion]
 math: true
 ---
 

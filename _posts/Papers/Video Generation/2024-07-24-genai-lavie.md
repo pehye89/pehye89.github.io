@@ -1,9 +1,9 @@
 ---
-title: LAVIE - High-Quality Video Generation with Cascaded Latent Diffusion Models
+title: (LAVIE) High-Quality Video Generation with Cascaded Latent Diffusion Models
 date: 2024-07-24 
 author: eunhye
 categories: [Papers, Video Generation]
-tags: [video_generation, diffusion, lavie, ldm]
+tags: [diffusion]
 math: true
 ---
 

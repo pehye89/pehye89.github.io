@@ -1,8 +1,8 @@
 ---
-title: \[Lumiere] A Space-Time Diffusion Model for Video Generation
+title: (Lumiere) A Space-Time Diffusion Model for Video Generation
 date: 2024-08-05
 categories: [Papers, Video Generation]
-tags: [video_generation, diffusion, ldm]
+tags: [diffusion]
 math: true
 ---
 

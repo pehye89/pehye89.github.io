@@ -1,8 +1,8 @@
 ---
-title: \[CycleGAN] Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks
+title: (CycleGAN) Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks
 date: 2024-07-18
 categories: [Papers, Image Generation]
-tags: [image_generation, gan]
+tags: [gan]
 math: true
 ---
 
