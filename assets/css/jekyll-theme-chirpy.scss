@@ -195,11 +195,11 @@ details.details-block[open] > summary::after {
   transform: rotate(90deg);
 }
 
+*/
 details.details-block[open] > summary{
   // transition: margin 200ms ease-out; 
   margin-bottom: .6rem;
 }
-*/
 
 @keyframes my-cat {
   50%  { transform: scale(1.2); } /* 动画效果代码 */
@@ -232,8 +232,9 @@ details.details-inline > summary::-webkit-details-marker {
   display: none; /* IOS 隐藏默认的箭头 */
 }
 details.details-inline > summary::before {
-  content: '+';
-  scale: 1.3;
+  font-family: 'Font Awesome 6 Free';
+  content: "\f105"; /* Unicode for fa-angle-down */
+  //scale: 1.3;
   display: inline-block;
   margin-right: .4rem;
   transition: transform 0.2s ease; /* 添加旋转动画 */
