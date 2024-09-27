@@ -168,6 +168,7 @@ details.details-block > summary::before {
   // content: '🙈'; 
   // content:'\002B9A'; 
   // content: '😼';
+  font-family: 'Font Awesome 6 Free';
   content: "\f105"; /* Unicode for fa-angle-down */
   margin-right: .5rem;
   display: inline-block;
@@ -176,19 +177,20 @@ details.details-block[open] > summary::before {
   transform: rotate(90deg);
   // content: '\002B9B'; 
   // content: '🙀';
-  //animation: my-cat .2s ease-in-out; 
+  // animation: my-cat .2s ease-in-out; 
   margin-right: .5rem;
 }
 
+/*
 details.details-block > summary::after {
   font-family: 'Font Awesome 6 Free';
-  content: "\f105"; /* Unicode for fa-angle-down */
+  content: "\f105"; 
   display: inline-block;
-  transition: transform 0.2s ease; /* 添加旋转动画 */
+  transition: transform 0.2s ease; 
   position: absolute;
-  right: 1rem; /* 调整箭头在最右边的位置 */
+  right: 1rem; 
 }
-/*
+
 details.details-block[open] > summary::after {
   transform: rotate(90deg);
 }
